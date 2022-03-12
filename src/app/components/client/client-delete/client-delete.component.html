@@ -1,0 +1,27 @@
+<mat-card>
+    <mat-card-title>Excluir Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+            [value]= "client.nome" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Idade"
+            [value]= "client.idade" name="idade" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereco"
+            [(ngModel)]= "client.endereco" name="endereco" disabled>
+        </mat-form-field>
+    </form>
+</mat-card>
+
+
+
+<button mat-raised-button (click)="deleteClient()" color="warn">
+    Excluir
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
