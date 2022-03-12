@@ -1,0 +1,46 @@
+{
+  "Cliente": [
+    {
+      "id": 1,
+      "nome": "Camila Souza",
+      "endereco": "Rua das flores, numero 10",
+      "idade": 30
+    },
+    {
+      "nome": "Marta da Silva",
+      "Endereço": "Rua das Oliveiras, numero 890",
+      "idade": "45",
+      "id": 2
+    },
+    {
+      "nome": "Juliama Martins",
+      "Endereço": "Rua das Oliveiras, numero 890",
+      "idade": "32",
+      "id": 3
+    },
+    {
+      "nome": "Joelma da França",
+      "endereco": "Rua Dias da Cruz, numero 432",
+      "idade": "45",
+      "id": 4
+    },
+    {
+      "nome": "Juliana",
+      "idade": "35",
+      "endereco": "",
+      "id": 5
+    },
+    {
+      "nome": "Adicionando",
+      "idade": "76",
+      "endereco": "",
+      "id": 6
+    },
+    {
+      "nome": "SAmuel Silva",
+      "idade": "23",
+      "endereco": "",
+      "id": 7
+    }
+  ]
+}
